@@ -1,3 +1,4 @@
+const { models } = require('mongoose');
 const Patient = require('../Models/Patient');
 
 // 👉 Add a new patient

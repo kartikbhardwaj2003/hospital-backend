@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const Patient = require("../models/Patient");
+const Patient = require("../Models/Patient");
 const verifyToken = require("../middleware/auth");
 
 // ✅ Create new patient
