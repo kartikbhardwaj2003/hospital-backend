@@ -1,5 +1,5 @@
 const { models } = require('mongoose');
-const Patient = require('../Models/Patient');
+const Patient = require('../models/Patient');
 
 // 👉 Add a new patient
 exports.createPatient = async (req, res) => {

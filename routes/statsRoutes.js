@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const Patient = require("../Models/Patient");
+const Patient = require("../models/Patient");
 const verifyToken = require("../middleware/auth");
 
 // GET /api/stats/patient-summary
